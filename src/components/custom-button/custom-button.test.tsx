@@ -8,7 +8,7 @@ describe("CustomButton", () => {
     const document = render(<CustomButton />);
 
     const buttonElement = document.getByRole("button", {
-      name: "CustomButton",
+      name: "Custom Button",
     });
 
     expect(buttonElement).toBeInTheDocument();
